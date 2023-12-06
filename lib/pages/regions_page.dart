@@ -9,8 +9,14 @@ class RegionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(title),
+        backgroundColor: Theme.of(context).primaryColor,
+        title: Text(
+          title, 
+          style: const TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        iconTheme: const IconThemeData(color: Colors.white), // Définir la couleur du bouton de retour
       ),
       body: Container(),
     );
