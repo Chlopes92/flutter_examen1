@@ -26,9 +26,12 @@ Pour exécuter l'application localement, suivez ces étapes :
 
 ## 📸 Captures d'écran
 
+
 ![image](https://github.com/Chlopes92/flutter_examen1/assets/118167199/24132724-a31f-4b17-b5c0-87f6768603a6)
 
+
 ![image](https://github.com/Chlopes92/flutter_examen1/assets/118167199/cc38900f-72a3-4ce5-a71d-2f5c620502eb)
+
 
 ## 🧩 Structure du projet
 
@@ -55,7 +58,7 @@ Pour exécuter l'application localement, suivez ces étapes :
 Ajout des dépendances :
 
 dependencies:
-  flutter:
-    sdk: flutter
-  video_player: ^2.2.16
+   flutter:
+      sdk: flutter
+   video_player: ^2.2.16
 
