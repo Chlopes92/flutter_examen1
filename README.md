@@ -57,8 +57,5 @@ Pour exécuter l'application localement, suivez ces étapes :
 
 Ajout des dépendances :
 
-dependencies:
-   flutter:
-      sdk: flutter
    video_player: ^2.2.16
 
