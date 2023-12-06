@@ -16,7 +16,7 @@ class RegionPage extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        iconTheme: const IconThemeData(color: Colors.white), // Définir la couleur du bouton de retour
+        iconTheme: const IconThemeData(color: Colors.white), 
       ),
       body: Container(),
     );

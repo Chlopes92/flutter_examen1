@@ -56,7 +56,7 @@ class MenuDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) =>
-                      const RegionPage(title: "Recherche par Region"),
+                    const RegionPage(title: "Recherche par Region"),
                 ),
               );
             },

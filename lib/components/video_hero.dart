@@ -96,7 +96,7 @@ class _VideoHeroState extends State<VideoHero> {
 }
 
 
-  Widget buildFloatingActionButton() {
+ Widget buildFloatingActionButton() {
     return Positioned(
       bottom: 16.0,
       right: 16.0,

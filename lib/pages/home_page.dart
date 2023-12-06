@@ -25,17 +25,15 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget> [
           Container(
-        margin: EdgeInsets.zero, // Définir la marge au dessus de la video à zéro
-        child: const VideoHero(),
-      ),
+            margin: EdgeInsets.zero, 
+            child: const VideoHero(),
+          ),
           Center(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
-              // mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  color: Color.fromARGB(255, 114, 166, 255),
-                  // height: 550, // Définissez la hauteur souhaitée
+                  color: const Color.fromARGB(255, 114, 166, 255),
                   width: double.infinity,
                   child: const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
@@ -52,19 +50,21 @@ class HomePage extends StatelessWidget {
                 
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
-                 child: const Text(
+                  child: const Text(
                   "Candy canes icing pastry carrot cake cake. Jelly icing dragée sweet chupa chups cheesecake cotton candy. Marshmallow gummi bears dessert tart soufflé danish croissant. Cheesecake soufflé lollipop jelly-o caramels powder. Jelly-o cake jelly beans lemon drops caramels bonbon chocolate cake. Croissant cotton candy cupcake sesame snaps dessert tart. Cupcake marzipan sugar plum sugar plum fruitcake.",
-                  style: TextStyle(color: Colors.black),
+                  style: TextStyle(
+                    color: Colors.black
+                  ),
                 ),
-              ),
-              const SizedBox(height: 40),
+               ),
+              const SizedBox(height: 35),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                           builder: (context) =>
-                              const RegionPage(title: "Region Page")),
+                            const RegionPage(title: "Region Page")),
                     );
                   },
                   style: ButtonStyle(
@@ -75,10 +75,12 @@ class HomePage extends StatelessWidget {
                     children: [
                       Icon(Icons.search, color: Colors.blueAccent),
                       SizedBox(width: 5),
-                      Text("Rechercher Par Région", 
+                      Text(
+                        "Rechercher Par Région", 
                         style: TextStyle(
-                          color: Colors.black)
-                          ),
+                          color: Colors.black
+                        ),
+                      ),
                     ],
                   ),
                 ),
